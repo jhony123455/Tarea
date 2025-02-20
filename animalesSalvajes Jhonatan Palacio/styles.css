@@ -1,0 +1,136 @@
+     /* Estilo global para el cuerpo */
+     body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+    }
+
+    /* Estilos para el encabezado */
+    header {
+        background-color: #2c3e50;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    h1 {
+        font-family: Arial, sans-serif; /* Fuente Arial */
+        color: #fff; /* Color negro */
+        font-style: normal; /* Texto en normal por defecto */
+      }
+      
+      .animales {
+        font-style: italic; /* La palabra "Animales" estará en cursiva */
+      }
+      
+      .salvajes {
+        font-weight: bold; /* La palabra "Salvajes" estará en negrita */
+        font-size: 1.3em; /* Aumenta el tamaño de "Salvajes" un poco */
+      }
+      
+    /* Estilo para el menú de navegación */
+    .menu {
+        background-color: #34495e;
+        padding: 10px;
+    }
+
+    .menu ul {
+        list-style-type: none; /* Elimina los puntos de lista */
+        padding: 0;
+        margin: 0;
+      }
+      
+      .menu ul li {
+        display: inline-block; /* Para que los enlaces estén en una fila */
+        margin-right: 20px; /* Espacio entre los elementos del menú */
+      }
+      
+      .menu ul li a {
+        text-decoration: none; /* Elimina el subrayado de los enlaces */
+        font-size: 18px; /* Tamaño de fuente */
+        color: #000; /* Color del texto */
+        padding: 8px 15px; /* Espaciado interno de los enlaces */
+        border-radius: 5px; /* Bordes redondeados */
+        display: inline-block; /* Asegura que el área de clic esté correctamente alrededor del texto */
+        transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave para el color de fondo y el texto */
+      }
+      
+      /* Background específico para cada enlace */
+      .menu ul li:nth-child(1) a {
+        background-color: #3357FF; /* Azul para "Principal" */
+      }
+      
+      .menu ul li:nth-child(2) a {
+        background-color: #6F4F28; /* Marrón para "Osos" */
+      }
+      
+      .menu ul li:nth-child(3) a {
+        background-color: #D4AF37; /* Amarillo oscuro para "Jirafas" */
+      }
+      
+      .menu ul li:nth-child(4) a {
+        background-color: #FFD700; /* Amarillo claro para "Leones" */
+      }
+      
+      .menu ul li:nth-child(5) a {
+        background-color: #FF69B4; /* Rosa para "Hipopotamos" */
+      }
+      
+      /* Efecto hover para suavizar los colores de fondo */
+      .menu ul li a:hover {
+        background-color: #3333337e; /* Fondo negro cuando se pasa el mouse */
+        color: #FFF; /* Cambia el texto a blanco */
+      }
+
+    /* Estilo para el contenido principal */
+    main {
+        padding: 20px;
+    }
+
+    h2, p {
+        text-align: left; /* Alinea el texto a la izquierda */
+        margin-left: 0; /* Elimina márgenes a la izquierda */
+        margin-right: 0; /* Elimina márgenes a la derecha */
+      }
+      
+    h2 {
+        margin-left: 0; /* El título no tiene desplazamiento */
+      }
+      
+      p {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    
+    p strong {
+        font-weight: bold;
+    }
+    
+    p em {
+        font-style: italic;
+    }
+      
+
+    .img1 {
+        display: block; 
+        margin-left: auto; 
+        margin-right: 0; 
+        width: 100%;
+        max-width: 500px; 
+        height: auto; 
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+    /* Estilo para el pie de página */
+    footer {
+        text-align: center;
+        background-color: #2c3e50;
+        color: white;
+        padding: 10px;
+        width: 100%;
+        bottom: 0;
+    }
